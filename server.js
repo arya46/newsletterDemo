@@ -21,7 +21,7 @@ app.use(morgan('dev'));
 app.use(session({
   resave: true,
   saveUinitialiazed: true,
-  secret: "arashhahahaha",
+  secret: "s3cr3t",
   store: new MongoStore({ url: 'mongodb://root:12345678@ds245715.mlab.com:45715/newsletter'})
 }));
 app.use(flash());
